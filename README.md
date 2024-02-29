@@ -1,5 +1,4 @@
-- 
-  ```bash
+```bash
     # start backend
     terraform init
 
