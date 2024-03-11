@@ -77,3 +77,19 @@ variable "securityGroup" {
   description = "The security group ID"
   default     = "sg-0dd1c9a2438a5f4b8"
 }
+
+variable "tableNameDynamo" {
+  description = "The name of the DynamoDB table"
+  default     = "users"
+}
+
+variable "readCapacity" {
+  description = "The read capacity for the DynamoDB table"
+  default     = 20
+}
+
+variable "writeCapacity" {
+  description = "The write capacity for the DynamoDB table"
+  default     = 20
+}
+
