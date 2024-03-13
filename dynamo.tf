@@ -3,10 +3,10 @@ resource "aws_dynamodb_table" "users" {
   billing_mode   = "PROVISIONED"
   read_capacity  = var.readCapacity
   write_capacity = var.writeCapacity
-  hash_key       = "UserId"
+  hash_key       = "cpf"
 
   attribute {
-    name = "UserId"
+    name = "cpf"
     type = "S"
   }
 }
