@@ -10,7 +10,7 @@ variable "projectName" {
 
 variable "vpcId" {
   description = "The VPC ID"
-  default     = "vpc-07dc65402e3363a1c"
+  default     = "vpc-0fbc5db95c8c95174"
 }
 
 variable "vpcCIDR" {
@@ -20,17 +20,17 @@ variable "vpcCIDR" {
 
 variable "subnet01" {
   description = "The first subnet ID"
-  default     = "subnet-0c0bec49c2154f782"
+  default     = "subnet-0a635f7feeef1a5e4"
 }
 
 variable "subnet02" {
   description = "The second subnet ID"
-  default     = "subnet-09db016ca2bf2dc5b"
+  default     = "subnet-0ef6045943cde9504"
 }
 
 variable "subnet03" {
   description = "The third subnet ID"
-  default     = "subnet-0d5b472ef466546a2"
+  default     = "subnet-0927648c135b99e3b"
 }
 
 variable "engineRds" {
@@ -75,21 +75,5 @@ variable "maxStorage" {
 
 variable "securityGroup" {
   description = "The security group ID"
-  default     = "sg-0dd1c9a2438a5f4b8"
+  default     = "sg-09c8123c5f765ea7f"
 }
-
-variable "tableNameDynamo" {
-  description = "The name of the DynamoDB table"
-  default     = "users"
-}
-
-variable "readCapacity" {
-  description = "The read capacity for the DynamoDB table"
-  default     = 20
-}
-
-variable "writeCapacity" {
-  description = "The write capacity for the DynamoDB table"
-  default     = 20
-}
-
