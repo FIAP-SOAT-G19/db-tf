@@ -1,7 +1,7 @@
-# 💬 Tech Challenge - Postgres RDS
+# 💬 Tech Challenge - Postgres RDS e DynamoDB
 
 ## ✳️ Sobre
-O **Tech Challenge** é um projeto de um sistema de autoatendimento de fast food, que é composto por uma série de dispositivos e interfaces que permitem aos clientes selecionar e fazer pedidos sem precisar interagir com um atendente. Esse repositório contém a IAC(Infraestrutura com código) do cluster AWS-EKS para utilização da aplicação.
+O **Tech Challenge** é um projeto de um sistema de autoatendimento de fast food, que é composto por uma série de dispositivos e interfaces que permitem aos clientes selecionar e fazer pedidos sem precisar interagir com um atendente. Esse repositório contém a IAC(Infraestrutura com código) que faz a criação do banco de dados postgres com RDS e também a criação de uma tabela no DynamoDB.
 
 ---
 
